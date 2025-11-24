@@ -1,0 +1,21 @@
+//
+//  GameSetupLiveStore.swift
+//  XO
+//
+//  Created by Aviv Cohen on 25/11/2025.
+//
+
+import Foundation
+import Combine
+
+@MainActor
+final class GameSetupLiveStore: ObservableObject {
+   @Published var player1: PlayerProfile = .defaultPlayer1
+   @Published var player2: PlayerProfile = .defaultPlayer2
+   @Published var selectedDifficulty: Difficulty = .medium
+   @Published var selectedFirstTurn: FirstTurn = .random
+   
+
+   
+   
+}

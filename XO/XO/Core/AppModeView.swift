@@ -17,7 +17,7 @@ struct AppModeView: View {
          case .game:
             Text("Game")
          case .gameSetup:
-            Text("Game Setup")
+            GameSetupView()
          }
          
       }
