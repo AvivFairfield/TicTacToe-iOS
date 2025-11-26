@@ -28,3 +28,4 @@ struct AppModeView: View {
 #Preview {
    AppModeView()
 }
+
