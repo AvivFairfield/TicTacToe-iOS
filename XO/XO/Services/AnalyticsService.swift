@@ -29,7 +29,7 @@ final class AnalyticsService: AnalyticsProtocol {
    
    func trackError(_ error: GameError) {
       #if DEBUG
-      print("Tracking error: \(error.localizedDescription ?? "Unknown error")")
+      print("Tracking error: \(error.errorDescription ?? "Unknown error")")
       #endif
    }
    
